@@ -54,7 +54,7 @@
 		 $data['mahasiswa'] = $result;
 		 $this->load->view('*ciew belum dibuat',$data);
 	 }
-	  public function siswa(){
+	  public function perpustakaan(){
 		 $result = $this->crud_m->get();
 		 $data['siswa'] = $result;
 		 $this->load->view('index',$data);
@@ -76,6 +76,26 @@
 		 }
 		 else{
 			 echo "peminjaman gagal ";
+		 }
+	 }
+	  public function guru(){
+		 $result = $this->crud_m->get();
+		 $data['guru'] = $result;
+		 $this->load->view('guru',$data);
+	 }
+	 public function insert_peminjaman(){
+		 $nis = $this->input->post('nip');
+		 $nama = $this->input->post('nama');
+		 $value = array(
+			'nip'=>$nip,
+			'nama'=>$nama
+		 );
+		 $result = $this->crud_m->insert($value);
+		 if($result){
+			 echo "data berhasil diinput";
+		 }
+		 else{
+			 echo "data gagal diinput";
 		 }
 	 }
  }
