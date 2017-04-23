@@ -17,9 +17,6 @@
 					<i class="icon-reorder shaded"></i>
 				</a>
 			  	<a class="brand" href="index.html"> I N T E R P I D </a><div class="logout">
-				<!-- <audio controls autoplay="true" loop="true" style="display:none"> 
-					<source src="<?php echo base_url('files\audio\Alesso_Heroes.mp3') ?>" type="audio/mpeg">
-				</audio> -->
 				<div style="position:absolute;right:10px;top:8px;">
 				<label>Selamat Datang, <?= $this->session->userdata('username') ?></label>
 				<a style="position:absolute;right:0%;" href="<?= site_url('home/logout') ?>">Logout</a>
