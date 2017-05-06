@@ -5,6 +5,54 @@ What is iSchool
 iSchool adalah website yang digunakan untuk keperluan dari sekolah. dimana website ini mempermudah untuk pendataan
 jadwal, siswa, guru, staf, dan juga untuk input peminjaman buku di perpustakaan
 
+Fitur
+-----
+
++Mengelola Kelas
+----------------
+Menambahkan data Kelas
+Lihat, Update, dan hapus data kelas
+
++Mengelola Sesi
+---------------
+Menambahkan data Sesi
+Lihat, Update, dan hapus data sesi
+
++Mengelola Mata Pelajaran
+-------------------------
+Menambahkan data Mata Pelajaran
+Lihat, Update, dan hapus data Mata Pelajaran
+
++Mengelola Siswa
+----------------
+Menambahkan data Siswa
+Lihat, Update, dan hapus data siswa
+
+
++Mengelola Guru
+----------------
+Menambahkan data Guru
+Lihat, Update, dan hapus data guru
+
+
++Mengelola Peminjaman Buku
+--------------------------
+Menambahkan data Peminjaman dan pengembalian buku
+Lihat, Update, dan hapus data peminjaman dan pengembalian buku
+
+Users
+-----
+Username: staff
+password: staff
+
+Rubah Password
+RUbah Username
+
++Kebutuhan Sistem
+-----------------
+PHP Version +5.4.4
+Web Server
+
 *******************
 Release Information
 *******************
