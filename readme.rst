@@ -45,9 +45,6 @@ Users
 Username: staff
 password: staff
 
-Rubah Password
-RUbah Username
-
 +Kebutuhan Sistem
 -----------------
 PHP Version +5.4.4
